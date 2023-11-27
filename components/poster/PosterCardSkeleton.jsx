@@ -1,9 +1,9 @@
-import React from 'react'
-
 const PosterCardSkeleton = () => {
   return (
-    <div>PosterCardSkeleton</div>
-  )
-}
+    <>
+      <div className="w-full h-[110vh]"></div>
+    </>
+  );
+};
 
-export default PosterCardSkeleton
+export default PosterCardSkeleton;

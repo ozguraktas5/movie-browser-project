@@ -1,9 +1,11 @@
-import React from 'react'
-
-const PageContainer = () => {
+const PageContainer = ({ className, children }) => {
   return (
-    <div>PageContainer</div>
-  )
-}
+    <div
+      className={`${className} max-w-7xl mx-auto p-4 grid text-neutral-200 pb-20 md:pb-12`}
+    >
+      {children}
+    </div>
+  );
+};
 
-export default PageContainer
+export default PageContainer;

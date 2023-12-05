@@ -13,10 +13,10 @@ const DesktopBar = ({ links, pathname }) => {
     <div className="hidden md:flex max-w-7xl mx-auto justify-between items-center p-4">
       <Link href={"/"}>
         <img
-          src="/cinema.png"
+          src="/cinemalogo.jpg"
           alt="Website logo"
           loading="lazy"
-          className="h-10 w-10 hover:scale-105 duration-300 active:scale-100"
+          className="h-10 w-10 hover:scale-105 duration-300 active:scale-100 rounded-full"
         />
       </Link>
       <div className="flex items-center justify-center gap-4">

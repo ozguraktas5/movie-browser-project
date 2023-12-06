@@ -17,6 +17,7 @@ const Catalog = () => {
   const [selectedGenres, setSelectedGenres] = useState([]);
   const [isGenreHidden, setIsGenreHidden] = useState(true);
   const searchParams = useSearchParams();
+  
 
   const fetchMovies = async (page, sortBy, rating, inputGenres) => {
     setIsLoading(true);
@@ -160,7 +161,7 @@ const Catalog = () => {
                   id={movie.id}
                   image={`https://image.tmdb.org/t/p/original${movie.backdrop_path}`}
                   name={movie.title}
-                  release_year={movie.release_date.slice(0, 4)}
+                  release_year={movie.release_date?.slice(0, 4)}
                   media_type="movie"
                   rating={movie.vote_average}
                 />
@@ -184,7 +185,7 @@ const Catalog = () => {
             </div>
             <Button
               onClick={() => {
-                if (page <= 500) {
+                if (page < 500) {
                   setPage(page + 1);
                 }
               }}

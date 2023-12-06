@@ -1,7 +1,6 @@
 import Link from "next/link";
 
-const LinkButton = ({ href, children, active}) => {
-
+const LinkButton = ({ href, children, active }) => {
   return (
     <Link
       href={href}
@@ -16,4 +15,4 @@ const LinkButton = ({ href, children, active}) => {
   );
 };
 
-export default LinkButton
+export default LinkButton;

@@ -59,19 +59,19 @@ const About = () => {
           className="rounded-xl w-full object-cover"
         />
         <div className="grid space-y-3 md:space-y-4">
-          <h1 className="text-3xl font-bold mt-4 md:mt-6">About Flickster</h1>
+          <h1 className="text-3xl font-bold mt-4 md:mt-6">About Stories Behind the Scenes</h1>
           <p>
-            Flickster is a web application designed to provide an intuitive and
+            Stories Behind the Scenes is a web application designed to provide an intuitive and
             user-friendly platform for browsing and selecting movies. With a
-            vast database of movies, Flickster offers detailed information about
+            vast database of movies, Stories Behind the Scenes offers detailed information about
             each movie, including a full description, similar movies, and user
             ratings.
           </p>
           <h2 className="font-bold text-xl pt-2">
-            The Motivation Behind Flickster
+            The Motivation Behind Stories Behind the Scenes
           </h2>
           <p>
-            The idea behind Flickster was born out of a passion for movies and a
+            The idea behind Stories Behind the Scenes was born out of a passion for movies and a
             desire to simplify the process of browsing and selecting movies.
             With the rise of streaming services and online movie databases,
             there's more content available than ever before. However, navigating
@@ -79,10 +79,10 @@ const About = () => {
             of structure.
           </p>
           <p>
-            Flickster aims to address this issue by providing a simple, clean
+            Stories Behind the Scenes aims to address this issue by providing a simple, clean
             interface that makes it easy to browse and select movies. Whether
             you're looking for a movie to watch tonight, or you're on the hunt
-            for your next favorite series, Flickster is the place to go.
+            for your next favorite series, Stories Behind the Scenes is the place to go.
           </p>
           <blockquote className="border-l-4 border-indigo-500 pl-4 italic">
             "A film is like a novel, but instead of being written, it's filmed."
@@ -102,13 +102,13 @@ const About = () => {
             laugh, they make us cry, and they inspire us. They're a universal
             language that transcends borders and cultures.
           </p>
-          <h2 className="font-bold text-xl pt-2">Why Flickster is Useful</h2>
+          <h2 className="font-bold text-xl pt-2">Why Stories Behind the Scenes is Useful</h2>
           <p>
-            Flickster is a tool that makes browsing and selecting movies easier
+            Stories Behind the Scenes is a tool that makes browsing and selecting movies easier
             and more enjoyable. With its simple interface and comprehensive
-            database, Flickster allows you to find the perfect movie for any
+            database, Stories Behind the Scenes allows you to find the perfect movie for any
             occasion. Whether you're looking for a movie to watch with friends,
-            or you're on the hunt for your next favorite series, Flickster is
+            or you're on the hunt for your next favorite series, Stories Behind the Scenes is
             here to help.
           </p>
           <h2 className="font-bold text-xl pt-2">Contact Information</h2>

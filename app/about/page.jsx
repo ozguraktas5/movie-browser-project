@@ -77,32 +77,32 @@ const About = () => {
             The idea behind Stories Behind the Scenes was born out of a passion for movies and a
             desire to simplify the process of browsing and selecting movies.
             With the rise of streaming services and online movie databases,
-            there's more content available than ever before. However, navigating
+            there&apos;s more content available than ever before. However, navigating
             these platforms can be overwhelming, with endless options and a lack
             of structure.
           </p>
           <p>
             Stories Behind the Scenes aims to address this issue by providing a simple, clean
             interface that makes it easy to browse and select movies. Whether
-            you're looking for a movie to watch tonight, or you're on the hunt
+            you&apos;re looking for a movie to watch tonight, or you&apos;re on the hunt
             for your next favorite series, Stories Behind the Scenes is the place to go.
           </p>
           <blockquote className="border-l-4 border-indigo-500 pl-4 italic">
-            "A film is like a novel, but instead of being written, it's filmed."
+            &quot;A film is like a novel, but instead of being written, it&apos;s filmed.&quot;
           </blockquote>
           <h2 className="font-bold text-xl pt-2">The History of Movies</h2>
           <p>
             Movies have been a staple of popular culture since the early 20th
             century. From the silent films of the 1920s to the blockbuster
             action movies of today, movies have evolved to reflect the times.
-            They've captured our imaginations, sparked debates, and shaped our
+            They&apos;ve captured our imaginations, sparked debates, and shaped our
             understanding of the world.
           </p>
           <h2 className="font-bold text-xl pt-2">Why Movies Matter</h2>
           <p>
-            Movies are more than just entertainment. They're a reflection of our
+            Movies are more than just entertainment. They&apos;re a reflection of our
             culture, our society, and our times. They tell stories, they make us
-            laugh, they make us cry, and they inspire us. They're a universal
+            laugh, they make us cry, and they inspire us. They&apos;re a universal
             language that transcends borders and cultures.
           </p>
           <h2 className="font-bold text-xl pt-2">Why Stories Behind the Scenes is Useful</h2>
@@ -110,8 +110,8 @@ const About = () => {
             Stories Behind the Scenes is a tool that makes browsing and selecting movies easier
             and more enjoyable. With its simple interface and comprehensive
             database, Stories Behind the Scenes allows you to find the perfect movie for any
-            occasion. Whether you're looking for a movie to watch with friends,
-            or you're on the hunt for your next favorite series, Stories Behind the Scenes is
+            occasion. Whether you&apos;re looking for a movie to watch with friends,
+            or you&apos;re on the hunt for your next favorite series, Stories Behind the Scenes is
             here to help.
           </p>
           <h2 className="font-bold text-xl pt-2">Contact Information</h2>
@@ -130,7 +130,7 @@ const About = () => {
           <h2 className="font-bold text-xl pt-2">Contact Us</h2>
           <p>
             Please fill out the form below if you have any questions left and
-            we'll get back to you.
+            we&apos;ll get back to you.
           </p>
           <div className="grid gap-4">
             {formSections.map((section) => (

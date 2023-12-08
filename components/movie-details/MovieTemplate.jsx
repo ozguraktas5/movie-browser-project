@@ -36,7 +36,7 @@ const MovieTemplate = ({
 
   useEffect(() => {
     fetchSimilarMovies();
-  }, []);
+  }, [fetchSimilarMovies]);
 
   return (
     <>

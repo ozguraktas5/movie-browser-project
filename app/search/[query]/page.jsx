@@ -34,7 +34,7 @@ const SearchResults = () => {
     Promise.all([fetchSearch()]).then(() => {
       setIsLoading(false);
     });
-  }, []);
+  }, [fetchSearch]);
 
   return (
     <>

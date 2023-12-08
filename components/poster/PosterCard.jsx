@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from 'next/image';
 
 const PosterCard = ({ image, name, media_type, release_year, id, rating }) => {
   return (
@@ -19,11 +20,13 @@ const PosterCard = ({ image, name, media_type, release_year, id, rating }) => {
               {Math.round(rating * 10) / 10}
             </p>
           </div>
-          <img
+          <Image
             src={image}
             className="w-full max-h-96 object-cover z-20"
             alt="Poster image"
             loading="lazy"
+            width={1200}
+            height={1200}
           />
         </div>
         <main className="grid text-neutral-200">

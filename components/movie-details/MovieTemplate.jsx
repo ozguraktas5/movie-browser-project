@@ -4,6 +4,7 @@ import Link from "next/link";
 import PosterCard from "../poster/PosterCard";
 import { useState } from "react";
 import PageContainer from "../PageContainer";
+import Image from 'next/image';
 
 const MovieTemplate = ({
   name,
@@ -40,18 +41,22 @@ const MovieTemplate = ({
   return (
     <>
       <PageContainer>
-        <img
+        <Image
           src={backdrop}
           alt="Movie backdrop"
           className="w-full max-h-96 object-cover rounded-xl"
           loading="lazy"
+          width={1200}
+          height={1200}
         />
         <div className="grid gap-4 lg:gap-6 xl:gap-8 md:flex pt-4 lg:pt-6">
-          <img
+          <Image
             src={image}
             alt="Movie poster"
             className="w-full hidden md:block max-w-sm max-h-[60vh] object-cover rounded-xl"
             loading="lazy"
+            width={1200}
+            height={1200}
           />
           <div className="flex flex-col flex-1">
             <div className="flex items-center gap-3">

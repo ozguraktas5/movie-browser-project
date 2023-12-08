@@ -4,6 +4,7 @@ import LinkText from "./LinkText";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import Input from "../Input";
+import Image from 'next/image';
 
 const DesktopBar = ({ links, pathname }) => {
   const router = useRouter();
@@ -12,11 +13,13 @@ const DesktopBar = ({ links, pathname }) => {
   return (
     <div className="hidden md:flex max-w-7xl mx-auto justify-between items-center p-4">
       <Link href={"/"}>
-        <img
+        <Image
           src="/cinemalogo.png"
           alt="Website logo"
           loading="lazy"
           className="h-10 w-10 hover:scale-105 duration-300 active:scale-100"
+          width={100}
+          height={100}
         />
       </Link>
       <div className="flex items-center justify-center gap-4">

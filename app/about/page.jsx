@@ -4,6 +4,7 @@ import PageContainer from "@/components/PageContainer";
 import FormSection from "@/components/about/FormSection";
 import Link from "next/link";
 import { useState } from "react";
+import Image from 'next/image';
 
 const About = () => {
   const [nameInput, setNameInput] = useState("");
@@ -52,11 +53,13 @@ const About = () => {
   return (
     <>
       <PageContainer>
-        <img
+        <Image
           src="https://blog.richersounds.com/wp-content/uploads/2016/02/matrix-reloaded-fight-scene-radically-recut-with-8-bit-sound1.png"
           alt="General Page Image - A scene from Matrix Reloaded"
           loading="lazy"
           className="rounded-xl w-full object-cover"
+          width={1200}
+          height={1200}
         />
         <div className="grid space-y-3 md:space-y-4">
           <h1 className="text-3xl font-bold mt-4 md:mt-6">About Stories Behind the Scenes</h1>

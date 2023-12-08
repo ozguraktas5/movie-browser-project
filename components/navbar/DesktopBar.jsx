@@ -4,7 +4,7 @@ import LinkText from "./LinkText";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import Input from "../Input";
-import Image from 'next/image';
+import Image from "next/image";
 
 const DesktopBar = ({ links, pathname }) => {
   const router = useRouter();

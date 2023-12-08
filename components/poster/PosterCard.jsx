@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from 'next/image';
+import Image from "next/image";
 
 const PosterCard = ({ image, name, media_type, release_year, id, rating }) => {
   return (

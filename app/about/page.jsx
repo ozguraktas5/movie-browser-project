@@ -4,7 +4,7 @@ import PageContainer from "@/components/PageContainer";
 import FormSection from "@/components/about/FormSection";
 import Link from "next/link";
 import { useState } from "react";
-import Image from 'next/image';
+import Image from "next/image";
 
 const About = () => {
   const [nameInput, setNameInput] = useState("");

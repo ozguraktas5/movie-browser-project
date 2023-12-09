@@ -61,7 +61,7 @@ const Catalog = () => {
     if (inputSorting) {
       setSorting(inputSorting);
     }
-  }, [searchParams]);
+  }, []);
 
   useEffect(() => {
     Promise.all([fetchMovies(page, sorting, ratingValue, selectedGenres)]).then(
